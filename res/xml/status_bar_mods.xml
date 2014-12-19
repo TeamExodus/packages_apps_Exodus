@@ -37,4 +37,10 @@
         android:fragment="com.exodus.mods.statusbar.StatusbarClock"
         android:title="@string/status_bar_clock" />
 
+     <Preference
+        android:key="traffic"
+        android:icon="@drawable/ic_traffic"
+        android:fragment="com.exodus.mods.statusbar.Traffic"
+        android:title="@string/traffic_category" />
+
 </PreferenceScreen>

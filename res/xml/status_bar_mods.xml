@@ -37,6 +37,12 @@
         android:fragment="com.exodus.mods.statusbar.StatusbarClock"
         android:title="@string/status_bar_clock" />
 
+     <PreferenceScreen
+        android:key="status_bar_battery_style"
+        android:title="@string/status_bar_battery_style_category"
+        android:icon="@drawable/ic_battery_style"
+        android:fragment="com.exodus.mods.statusbar.StatusbarBatteryStyle" />
+
      <Preference
         android:key="traffic"
         android:icon="@drawable/ic_traffic"

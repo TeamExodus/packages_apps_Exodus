@@ -97,4 +97,28 @@
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <string name="power_menu_profiles_disabled">System profiles are disabled</string>
 
+    <!-- Battery customizations -->
+    <string name="status_bar_battery_style_category">Battery</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_solid">Solid</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="battery_tile_style_title">Battery tile style</string>
+    <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the status bar battery</string>
+    <string name="force_charge_battery_text_title">Charging battery percentage</string>
+    <string name="force_charge_battery_text_summary_on">Show the battery percentage outside the icon while charging</string>
+    <string name="force_charge_battery_text_summary_off">Show the battery percentage inside the icon while charging</string>
+    <string name="text_charging_symbol_title">Charging battery symbol</string>
+    <string name="text_charging_symbol_dialog">Show a symbol near percentage text outside the battery icon when charging</string>
+    <string name="text_charging_symbol_default">Default</string>
+    <string name="text_charging_symbol_flash">Flash</string>
+    <string name="text_charging_symbol_tilde">Tilde</string>
+    <string name="heading_qs_tile_battery_style">QS battery style</string>
 </resources>

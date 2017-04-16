@@ -73,4 +73,8 @@
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
 
+    <!-- volte -->
+    <string name="status_bar_show_volte">Show volte label</string>
+    <string name="show_volte_summary">Please note this toggle change may take few seconds to apply</string>
+
 </resources>

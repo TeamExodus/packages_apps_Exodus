@@ -43,4 +43,10 @@
         android:fragment="com.exodus.mods.statusbar.Traffic"
         android:title="@string/traffic_category" />
 
+    <com.exodus.utils.SystemSettingSwitchPreference
+        android:key="show_volte"
+        android:summary="@string/show_volte_summary"
+        android:title="@string/status_bar_show_volte"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

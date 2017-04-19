@@ -41,7 +41,7 @@
         android:key="traffic"
         android:icon="@drawable/ic_traffic"
         android:fragment="com.exodus.mods.statusbar.Traffic"
-        android:title="@string/traffic_category" />
+        android:title="@string/network_traffic_title" />
 
     <com.exodus.utils.SystemSettingSwitchPreference
         android:key="show_volte"

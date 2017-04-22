@@ -25,4 +25,10 @@
         android:summary="@string/advanced_reboot_summary"
         android:defaultValue="false" />
 
+    <PreferenceScreen
+        android:key="power_menu"
+        android:fragment="com.exodus.mods.powermenu.PowerMenuActions"
+        android:title="@string/power_menu_title"
+        />
+
 </PreferenceScreen>

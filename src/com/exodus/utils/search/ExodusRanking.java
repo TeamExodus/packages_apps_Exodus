@@ -17,6 +17,8 @@
 package com.exodus.utils.search;
 
 import com.android.settings.ButtonsSettings;
+
+import com.exodus.mods.powermenu.*;
 import com.exodus.mods.statusbar.*;
 
 import java.util.HashMap;
@@ -30,6 +32,7 @@ public class ExodusRanking {
  
     public static final int RANK_CLOCKANDDATE = 26;
     public static final int RANK_TRAFFIC = 27;
+    public static final int RANK_POWERMENUACTIONS = 28;
 
     static {
         // Clock and Date
@@ -37,5 +40,8 @@ public class ExodusRanking {
 
         // Traffic
         sRankMap.put(Traffic.class.getName(), RANK_TRAFFIC);
+
+        // Power Menu Action
+        sRankMap.put(PowerMenuActions.class.getName(), RANK_POWERMENUACTIONS);
     }
 }

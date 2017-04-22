@@ -27,6 +27,7 @@ import com.android.settings.search.SearchIndexableResources;
 import com.android.settings.R;
 import com.android.settings.search.Ranking;
 
+import com.exodus.mods.powermenu.*;
 import com.exodus.mods.statusbar.*;
 
 import java.util.HashMap;
@@ -55,6 +56,13 @@ public class ExodusSearchIndexableResources {
                         R.xml.traffic,
                         Traffic.class.getName(),
                         R.drawable.ic_traffic));
+
+        sResMap.put(PowerMenuActions.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(PowerMenuActions.class.getName()),
+                        R.xml.power_menu_settings,
+                        PowerMenuActions.class.getName(),
+                        R.drawable.ic_power_menu));
 
         sResMap.put(ButtonsSettings.class.getName(),
                 new SearchIndexableResource(

@@ -121,4 +121,6 @@
     <string name="text_charging_symbol_flash">Flash</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
     <string name="heading_qs_tile_battery_style">QS battery style</string>
+
+    <string name="oneplusdoze_category">OnePlus Gestures</string>
 </resources>

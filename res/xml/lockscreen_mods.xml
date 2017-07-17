@@ -31,40 +31,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <Preference
-        android:key="status_bar_clock"
-        android:icon="@drawable/ic_status_bar_clock"
-        android:fragment="com.exodus.mods.statusbar.StatusbarClock"
-        android:title="@string/status_bar_clock" />
-
-     <PreferenceScreen
-        android:key="status_bar_battery_style"
-        android:title="@string/status_bar_battery_style_category"
-        android:icon="@drawable/ic_battery_style"
-        android:fragment="com.exodus.mods.statusbar.StatusbarBatteryStyle" />
-
-     <Preference
-        android:key="traffic"
-        android:icon="@drawable/ic_traffic"
-        android:fragment="com.exodus.mods.statusbar.Traffic"
-        android:title="@string/network_traffic_title" />
-
     <com.exodus.utils.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_gesture"
-        android:title="@string/double_tap_to_sleep_title"
-        android:summary="@string/double_tap_to_sleep_summary"
+        android:key="double_tap_sleep_anywhere"
+        android:title="@string/double_tap_sleep_anywhere_title"
+        android:summary="@string/double_tap_sleep_anywhere_summary"
         android:defaultValue="false" />
-
-    <com.exodus.utils.SecureSettingSwitchPreference
-        android:key="quick_settings_quick_pull_down"
-        android:title="@string/quick_pulldown_title"
-        android:summary="@string/quick_pulldown_summary"
-        android:defaultValue="false" />
-
-    <com.exodus.utils.SystemSettingSwitchPreference
-        android:key="show_volte"
-        android:summary="@string/show_volte_summary"
-        android:title="@string/status_bar_show_volte"
-        android:defaultValue="true" />
 
 </PreferenceScreen>

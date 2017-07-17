@@ -38,11 +38,15 @@
         android:title="@string/status_bar_title" />
 
      <Preference
+        android:key="lock_screen_mods"
+        android:fragment="com.exodus.mods.lockscreen.LockscreenMods"
+        android:title="@string/lockscreen_title" />
+
+     <Preference
         android:key="power_menu_mods"
         android:icon="@drawable/ic_power_menu"
         android:fragment="com.exodus.mods.powermenu.PowerMenu"
         android:title="@string/power_menu_title" />
-
 
     <PreferenceScreen
         android:key="oneplus_gestures"

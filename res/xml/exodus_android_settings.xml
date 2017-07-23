@@ -48,12 +48,4 @@
         android:fragment="com.exodus.mods.powermenu.PowerMenu"
         android:title="@string/power_menu_title" />
 
-    <PreferenceScreen
-        android:key="oneplus_gestures"
-        android:title="@string/oneplusdoze_category" >
-        <intent
-            android:action="com.android.settings.action.EXTRA_SETTINGS"
-            android:targetPackage="com.cyanogenmod.settings.device"
-            android:targetClass="com.cyanogenmod.settings.device.TouchscreenGestureSettings" />
-    </PreferenceScreen>
 </PreferenceScreen>

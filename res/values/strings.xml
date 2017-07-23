@@ -122,8 +122,6 @@
     <string name="text_charging_symbol_tilde">Tilde</string>
     <string name="heading_qs_tile_battery_style">QS battery style</string>
 
-    <string name="oneplusdoze_category">OnePlus Gestures</string>
-
     <!-- double tap statusbar to sleep -->
     <string name="double_tap_to_sleep_title">Double tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
